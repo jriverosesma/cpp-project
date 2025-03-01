@@ -1,10 +1,18 @@
 # C++ Project Template
 
-## Overview
+## Table of contents
+
+1. [Overview](README.md#1-overview)
+2. [Features](README.md#2-features)
+3. [Install](README.md#3-install)
+4. [Tests](README.md#4-tests)
+---
+
+## 1. Overview
 
 This repository contains an example of a simple C++ library and can be used as a template for other projects.
 
-### Features
+## 2. Features
 
 In this repository you will find the following items:
 
@@ -16,15 +24,15 @@ In this repository you will find the following items:
 - Example of Python script using C++ `MyLib` binding for Python: `example/main.py`.
 - Dockerfile for creating an Ubuntu image and building `MyLib` project inside it: `Dockerfile`.
 
-## Install
+## 3. Install
 
-### Pre-requisites
+### 3.1 Pre-requisites
 
 - C++ compiler.
 - CMake.
 - Optional: Python >= 3 to use [pre-commit](https://pre-commit.com).
 
-### Main setup
+### 3.2 Setup
 
 Run the following command to build the `MyLib` project and its corresponding Python binding:
 
@@ -36,7 +44,7 @@ The above command also builds an example C++ project using the `MyLib` library a
 
 **Note**: You can run `chmod +x build_all.sh` to add execution permissions to the build script.
 
-### Set up pre-commit (Optional)
+### 3.3 Set up pre-commit (Optional)
 
 The following instructions allows to set up pre-commit for code development in this project:
 
@@ -47,7 +55,7 @@ pip install black clang-format pre-commit
 pre-commit install
 ```
 
-## Tests
+## 4. Tests
 
 After building the `MyLib` project you can run the project tests using the following command:
 
